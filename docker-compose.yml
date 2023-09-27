@@ -1,0 +1,11 @@
+version: '3'
+services:
+  promi-web:
+    container_name: promi-web
+    image: nginx:alpine
+    volumes:
+      - ./assets:/usr/share/nginx/html/assets
+      - ./index.html:/usr/share/nginx/html/index.html
+    ports:
+      - "8008:80" 
+    command: ["nginx", "-g", "daemon off;"]

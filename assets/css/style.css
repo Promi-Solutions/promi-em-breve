@@ -1,0 +1,39 @@
+body {
+	background-color: #00171F;
+	/* Cor de fundo amarelo */
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/* Espaço entre as três divs */
+	align-items: center;
+	height: 90vh;
+	padding: 20px;
+	/* Espaçamento nas bordas */
+}
+
+.top-word {
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+	/* Espaço acima e abaixo das palavras de cima e de baixo */
+	margin-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	/* Aplicando a fonte Montserrat */
+
+}
+
+img {
+	max-width: 100%;
+	/* Certifica-se de que o SVG não ultrapasse o contêiner */
+	height: auto;
+	/* Garante que o aspecto do SVG seja mantido */
+}
+
+.copyright {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+	color: #fff;
+}
